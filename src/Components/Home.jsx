@@ -50,7 +50,7 @@ const Home = () => {
             transition={{ duration: 1 }}  
           >
             <img
-              src="../../public/9.jpg" 
+              src="https://www.shutterstock.com/image-photo/profile-photo-attractive-family-doc-600nw-1724693776.jpg" 
               alt="Hospital Overview"
               className="rounded-full shadow-md w-full"
             />
