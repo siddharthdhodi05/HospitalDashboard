@@ -3,12 +3,30 @@ import InputForm from './Components/InputForm';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Dashboard from './Components/Dashboard';
 import { useSelector } from 'react-redux';
+import Home from './Components/Home';
+import Layout from './Components/Layout';
+import About from './Components/About';
 
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Dashboard/>,
+    element: <Layout/>,
+    children:[
+       {
+        path:"/dash",
+        element:<Dashboard/>
+      },
+      {
+        path:"/about",
+        element:<About/>
+      },
+      {
+        path:"/home",
+        element:<Home/>
+      },
+     
+    ]
   },
   
 ]);

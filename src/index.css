@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  background:url(./10.jpg);
+  background-color: azure;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
